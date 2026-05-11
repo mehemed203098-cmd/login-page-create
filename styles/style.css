@@ -99,6 +99,16 @@ h1{
    
 
 }
+input:focus ~label,
+input:valid ~label{
+  top:-5px;
+  left: 5px;
+  font-size: 0.8rem;
+  color:rgb(42, 139, 0);
+  transition: 0.3s;font-weight: bold;
+
+
+}
 .from-group i{
     position: absolute;
     top: 50%;
@@ -119,4 +129,27 @@ p>a{
 p>a:hover{
     text-decoration: underline;
     font-style: italic;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #3eb210;
+    color: white;
+    cursor: pointer;
+    border-radius: 40px;
+    font-weight:600;
+   display: flex;
+    justify-content: center;
+    align-items: center;bold-italic
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+.btn:hover{
+    
+    background: hwb(27 2% 0%);
+    color: white;
 }
